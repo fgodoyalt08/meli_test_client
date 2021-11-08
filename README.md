@@ -4,8 +4,8 @@ This is a [Next.js](https://nextjs.org/) MELI TEST project bootstrapped with [`c
 
 First, configure environment:
 
-```rename .env.example to .env and configure vars
-```
+- rename .env.example to .env and configure vars
+
 
 Second, run the development server:
 
