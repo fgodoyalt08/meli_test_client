@@ -1,0 +1,102 @@
+@use 'base';
+
+.main {
+  width: 100%;
+  padding: 0.6rem 10%;
+}
+
+.card {
+  min-height: 212px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.cardImageContainer{
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+}
+
+.cardImage {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.cardTitleContainer {
+  width: 100%;
+  display: block;
+}
+
+.cardDescriptionContainer {
+  width: 60%;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.cardDescription{
+  padding-top: 32px;
+  width: 80%;
+}
+
+.cardAditionalDescriptionContainer{
+  width: 20%;
+  padding-top: 32px;
+  display: inline-block;
+}
+
+.cardTitle {
+  font-size: 24px;
+  margin-top: 10px;
+  position: relative;
+  display: block;
+}
+
+.cardTitleSecondary {
+  font-size: 12px;
+}
+
+.shippingFree {
+  background: green;
+  height: 15px;
+  width: 15px;
+  border-radius: 15px;
+  padding: 3px;
+  font-size: 8px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .card {
+    display: block;
+  }
+
+  .cardImageContainer{
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+
+  .cardDescriptionContainer {
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 0 5%;
+  }
+
+  .cardAditionalDescriptionContainer {
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 1% 5%;
+  }
+
+  .cardDescription{
+    width: 100%;
+  }
+}

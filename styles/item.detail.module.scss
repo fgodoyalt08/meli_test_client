@@ -1,0 +1,70 @@
+@use 'base';
+
+.main {
+  margin: 0 12%;
+  background-color: white;
+}
+
+.imageContainer {
+  display: inline-block;
+  width: 65%;
+  text-align: center;
+}
+
+.detailContainer {
+  display: inline-block;
+  width: 35%;
+  vertical-align: top;
+  margin-top: 32px;
+}
+
+.descriptionContainer {
+  display: inline-block;
+  width: 100%;
+  padding-left: 32px;
+  padding-top: 32px;
+}
+
+.detailCondition {
+  width: 100%;
+  display: block;
+  font-size: 14px;
+  padding-bottom: 16px;
+}
+
+.detailTitle {
+  width: 50%;
+  display: block;
+  font-size: 24px;
+}
+
+.detailPrice {
+  width: 100%;
+  display: block;
+  font-size: 46px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.detailButton {
+  background: #009eff;
+  height: 46px;
+  width: 250px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.detailDescription {
+  font-size: 28px;
+  padding-bottom: 32px;
+  display: block;
+  width: 100%;
+}
+
+.detailDescriptionComplete {
+  font-size: 16px;
+  padding-bottom: 32px;
+  display: block;
+  width: 100%;
+}

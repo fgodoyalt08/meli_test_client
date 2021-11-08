@@ -1,0 +1,8 @@
+@use 'base';
+
+.base {
+  background: base.$quartary-color;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}

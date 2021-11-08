@@ -1,0 +1,34 @@
+@use 'base';
+
+.breadcrumbList {
+  padding: 0;
+  margin: 0 12%;
+  list-style: none;
+  padding: 16px 0;
+}
+
+.breadcrumbList li {
+  display: inline;
+  font-size: 14px;
+  color: base.$tertiary-color;
+}
+
+.breadcrumbList li+li:before {
+  padding: 8px;
+  color: base.$tertiary-color;
+  font-weight: normal;
+  content: "\003e";
+}
+
+.breadcrumbList li a {
+  color: base.$tertiary-color;
+  text-decoration: none;
+}
+
+.breadcrumbList li a:hover {
+  text-decoration: underline;
+}
+
+.lastElement{
+  font-weight: bold;
+}
